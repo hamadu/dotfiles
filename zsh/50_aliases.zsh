@@ -3,8 +3,7 @@
 
 # cd
 alias ..='cd ..'
-alias lla='ls -lAF'
-alias ll='ls -lF'
+alias ll='ls -lAF'
 alias la='ls -AF'
 
 ## finder
