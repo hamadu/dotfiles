@@ -90,7 +90,5 @@ cask 'vagrant-manager'
 cask 'virtualbox'
 cask 'vlc'
 mas 'LINE', id: 539883307
-mas 'EazyDraw', id: 412624365
 mas 'Keynote', id: 409183694
 mas 'MIDITrail', id: 421739418
-mas 'Install macOS Sierra', id: 1127487414
