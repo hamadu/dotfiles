@@ -1,6 +1,6 @@
 ########################################
 # import settings
-for f in ./zsh/*; do source $f; done
+for f in ./dotfiles/zsh/*; do source $f; done
 
 ########################################
 # development environments
