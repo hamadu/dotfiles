@@ -5,6 +5,9 @@ for f in ./dotfiles/zsh/*; do source $f; done
 ########################################
 # development environments
 
+## nodebrew
+export PATH=$HOME/.nodebrew/current/bin:$PATH
+
 ## rbenv
 export RBENV_ROOT=/usr/local/var/rbenv
 eval "$(rbenv init -)"
