@@ -19,7 +19,7 @@ brew bundle --file="$PWD/macos/homebrew/Brewfile"
 # zsh
 echo "[💫 ] setting zsh"
 chsh -s /usr/local/bin/zsh
-ln -Fis "$PWD/.zshenv"    $HOME
-ln -Fis "$PWD/.zshrc"     $HOME
 ln -Fis "$PWD/.gitconfig" $HOME
 ln -Fis "$PWD/.gemrc"     $HOME
+ln -Fis "$PWD/.zshenv"    $HOME
+ln -Fis "$PWD/.zshrc"     $HOME
