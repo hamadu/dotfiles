@@ -1,0 +1,67 @@
+[user]
+  name = hamadu
+  email = dercll1020@gmail.com
+[color]
+  ui = auto
+  diff = auto
+  grep = auto
+  branch = auto
+  status = auto
+  interactive = auto
+[core]
+  excludesfile = ~/dotfiles/.gitignore
+  editor = vim
+  pager = less
+  autocrlf = input
+[pull]
+  rebase = true
+[push]
+  default = matching
+[diff]
+  algorithm = histogram
+  compactionHeuristic = true
+[merge]
+  tool = vimdiff
+  keepBackup = false
+[mergetool]
+  keepBackup = false
+[alias]
+  f = fetch --prune
+  p = pull --prune
+  st = status
+  br = branch
+  ci = commit
+  ck = checkout
+  cp = cherry-pick
+  wc = whatchanged
+  re = remote -v
+  dif = icdiff
+  difc = icdiff --cached
+  diffc = diff --cached
+  diffg = difftool --tool=vimdiff --no-prompt
+  pushf = push --force-with-lease
+
+  # %x09    Tab
+  # %H      Commit Hash(full)
+  # %h      Commit Hash(short)
+  # %an     Author Name
+  # %ae     Author Email
+  # %ad     Author Date
+  # %cn     Comitter Name
+  # %ce     Comitter Email
+  # %cd     Comitter Date
+  # %s      message
+  # %d      branch/tag
+  # %C(red bold) start color
+  #    [color] = [normal, black, red, green, yellow, blue, magenta, cyan, white]
+  #    [style] = [bold, dim, ul, blink, reverse]
+  # %C(reset)  reset color
+  logp = log -p
+  logs = log --stat
+  loga = log --graph --all --color --pretty='%x09%h %s %C(red)%d%C(reset)'
+  logo = log --graph --date=format:'%y-%m-%d [%a] %T' --pretty=format:'%C(green)%ad%C(reset) %an %ae %s'
+  logg = log --graph --date=format:'%y-%m-%d(%a) %T' --pretty=format:'%h %C(green)%cd %C(blue)%ad %C(green)%cn %C(blue)%an %C(green)%ce %C(blue)%ae %C(reset)%s'
+[pager]
+  diff = diff-highlight | less
+  show = diff-highlight | less
+  log = diff-highlight | less
