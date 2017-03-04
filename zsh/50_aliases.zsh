@@ -26,6 +26,7 @@ alias ga='git add'
 alias gd='git diff'
 alias gdd='git diff HEAD'
 alias gpp='git push --set-upstream origin'
+alias gbda="git branch --merged | grep -vE '^\*|master$|develop$' | xargs -I % git branch -d %"
 
 ## vim
 alias vi='vim'
