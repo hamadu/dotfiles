@@ -1,23 +1,6 @@
 ########################################
-# prompt
-# autoload -Uz vcs_info
-# setopt prompt_subst
-# zstyle ':vcs_info:*' formats '[%F{green}%b%f]'
-# zstyle ':vcs_info:*' actionformats '[%F{green}%b%f(%F{red}%a%f)]'
-# precmd() { vcs_info }
-# PROMPT='%{${fg[yellow]}%}%~%{${reset_color}%}
-# [%n@%md]${vcs_info_msg_0_}
-# %(?.%B%F{green}.%B%F{blue})%(?!(๑˃̵ᴗ˂̵)ﻭ < !(;^ω^%) < )%f%b'
-# RPROMPT=''
-
-# powerline
-# export PATH="$HOME/.local/bin/:$PATH"
-# powerline-daemon -q
-# . /Users/hama_du/.local/lib/python3.5/site-packages/powerline/bindings/zsh/powerline.zsh
-
-# to patch font, see instruction here: https://github.com/gabrielelana/awesome-terminal-fonts/wiki/OS-X
+# to patch font, see instruction here(MENDOI NO DE YATTENAI): https://github.com/gabrielelana/awesome-terminal-fonts/wiki/OS-X
 # POWERLEVEL9K_MODE='awesome-patched'
-
 POWERLEVEL9K_PROMPT_ON_NEWLINE=true
 POWERLEVEL9K_RPROMPT_ON_NEWLINE=true
 POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(context dir vcs)
