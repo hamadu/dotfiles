@@ -1,7 +1,7 @@
 ########################################
 # aliases
 
-# cd
+## cd
 alias ..='cd ..'
 alias ll='ls -lAF'
 alias la='ls -AF'
@@ -35,3 +35,7 @@ alias nikki='atom ~/projects/diary/`date +%Y%m%d`.md'
 
 ## bundler
 alias be='bundle exec'
+
+## docker
+alias dea='docker-compose exec app'
+alias dcln=docker rm $(docker ps -a | grep "Exited" | awk '{print $1}') && docker rm $(docker images -a | grep "^<none>" | awk '{print $3}')
