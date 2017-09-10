@@ -1,137 +1,121 @@
 #############################################
 # Initialize /Users/hamadu/.brewfile/Brewfile
 #############################################
-
-
-# tap repositories and their packages
-
-tap caskroom/cask
-cask alfred
-cask aquaterm
-cask atom
-cask coteditor
-cask docker
-cask firefox
-cask flip4mac
-cask google-chrome
-cask google-japanese-ime
-cask intellij-idea
-cask iterm2
-cask java
-cask minecraft
-cask mysqlworkbench
-cask skitch
-cask slack
-cask steam
-cask vagrant-manager
-cask vagrant
-cask virtualbox
-cask xquartz
-
-tap homebrew/bundle
-
-tap homebrew/core
-brew veclibfort
-brew jpeg
-brew qscintilla2
-brew gd
-brew htop
-brew mysql
-brew nodebrew
-brew gdbm
-brew libsndfile
-brew wrk
-brew fontconfig
-brew gmp
-brew freetype
-brew python
-brew tbb
-brew python3
-brew ghostscript
-brew qt
-brew libyaml
-brew fftw
-brew szip
-brew libvorbis
-brew ruby-build
-brew pkg-config
-brew qhull
-brew go
-brew webp
-brew redis
-brew lua
-brew libpng
-brew memcached
-brew imagemagick
-brew jq
-brew suite-sparse
-brew portaudio
-brew octave
-brew wget
-brew hdf5
-brew arpack
-brew openssl
-brew utf8proc
-brew isl
-brew libtool
-brew libtiff
-brew tmux
-brew xz
-brew qrupdate
-brew pcre
-brew libssh2
-brew pyenv
-brew glpk
-brew fzf
-brew libmpc
-brew flac
-brew libevent
-brew pstoedit
-brew peco
-brew gl2ps
-brew fig2dev
-brew autoconf
-brew zsh
-brew rust
-brew sqlite
-brew plotutils
-brew ansible
-brew curl
-brew epstool
-brew gcc
-brew sip
-brew cmake
-brew fltk
-brew gnuplot --with-aquaterm --with-x11 --with-qt
-brew pyqt
-brew direnv
-brew tig
-brew mas
-brew little-cms2
-brew graphicsmagick
-brew libogg
-brew openssl@1.1
-brew oniguruma
-brew readline
-brew metis
-brew rbenv
-brew mpfr
-
-tap homebrew/science
-
-tap homebrew/services
-
-tap homebrew/versions
-
-tap homebrew/x11
-
-tap rcmdnk/file
-brew brew-file
-
-# App Store applications
-appstore 409183694 Keynote (7.2)
-appstore 539883307 LINE (5.3.0)
-appstore 421739418 MIDITrail (1.2.3)
-appstore 409203825 Numbers (4.2)
-appstore 409201541 Pages (6.2)
-appstore 497799835 Xcode (8.3.3)
+tap "caskroom/cask"
+tap "homebrew/bundle"
+tap "homebrew/core"
+tap "homebrew/science"
+tap "homebrew/services"
+tap "homebrew/versions"
+tap "homebrew/x11"
+tap "rcmdnk/file"
+cask "java"
+cask "xquartz"
+brew "libyaml"
+brew "openssl@1.1"
+brew "gdbm"
+brew "openssl"
+brew "readline"
+brew "sqlite"
+brew "python"
+brew "ansible"
+brew "gmp"
+brew "isl"
+brew "mpfr"
+brew "libmpc"
+brew "gcc"
+brew "veclibfort"
+brew "arpack"
+brew "autoconf"
+brew "cmake"
+brew "curl"
+brew "direnv"
+brew "jpeg"
+brew "libtiff"
+brew "little-cms2"
+brew "ghostscript"
+brew "epstool"
+brew "fftw"
+brew "libpng"
+brew "fig2dev"
+brew "fltk"
+brew "freetype"
+brew "fontconfig"
+brew "fzf"
+brew "webp"
+brew "gd"
+brew "gl2ps"
+brew "glpk"
+brew "lua"
+brew "gnuplot", args: ["with-aquaterm", "with-qt", "with-x11"]
+brew "go"
+brew "libtool"
+brew "graphicsmagick"
+brew "szip"
+brew "hdf5"
+brew "htop"
+brew "xz"
+brew "imagemagick"
+brew "oniguruma"
+brew "jq"
+brew "libevent"
+brew "libssh2"
+brew "mas"
+brew "memcached", restart_service: true
+brew "metis"
+brew "mysql"
+brew "nodebrew"
+brew "pcre"
+brew "plotutils"
+brew "pstoedit"
+brew "qhull"
+brew "qrupdate"
+brew "suite-sparse"
+brew "octave"
+brew "peco"
+brew "pkg-config"
+brew "pyenv"
+brew "python3"
+brew "qt"
+brew "sip"
+brew "pyqt"
+brew "qscintilla2"
+brew "ruby-build"
+brew "rbenv"
+brew "redis", restart_service: true
+brew "rust"
+brew "tbb"
+brew "tig"
+brew "tmux"
+brew "utf8proc"
+brew "wget"
+brew "wrk"
+brew "zsh"
+brew "rcmdnk/file/brew-file"
+cask "alfred"
+cask "aquaterm"
+cask "atom"
+cask "clipy"
+cask "coteditor"
+cask "docker"
+cask "firefox"
+cask "flip4mac"
+cask "google-chrome"
+cask "google-japanese-ime"
+cask "intellij-idea"
+cask "iterm2"
+cask "minecraft"
+cask "mysqlworkbench"
+cask "skitch"
+cask "slack"
+cask "steam"
+cask "the-unarchiver"
+cask "vagrant"
+cask "vagrant-manager"
+cask "virtualbox"
+mas "Keynote", id: 409183694
+mas "LINE", id: 539883307
+mas "MIDITrail", id: 421739418
+mas "Numbers", id: 409203825
+mas "Pages", id: 409201541
+mas "Xcode", id: 497799835

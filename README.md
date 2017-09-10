@@ -1,6 +1,8 @@
 # Dotfiles
 
-## macos
+## installation
+
+### macos
 
 ```
 # install command line tools
@@ -12,4 +14,12 @@ $ cd dotfiles
 
 # install script
 $ sh install.sh
+```
+
+## update
+
+### Brewfile
+
+```
+brew bundle dump
 ```
