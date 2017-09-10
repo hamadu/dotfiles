@@ -1,116 +1,137 @@
-tap 'caskroom/cask'
-tap 'homebrew/bundle'
-tap 'homebrew/core'
-tap 'homebrew/science'
-tap 'homebrew/services'
-tap 'homebrew/versions'
-tap 'homebrew/x11'
-tap 'rcmdnk/file'
-cask 'xquartz'
-brew 'libyaml'
-brew 'openssl@1.1'
-brew 'pkg-config'
-brew 'gdbm'
-brew 'openssl'
-brew 'readline'
-brew 'sqlite'
-brew 'python'
-brew 'ansible'
-brew 'autoconf'
-brew 'cmake'
-brew 'libssh2'
-brew 'curl'
-brew 'go'
-brew 'direnv'
-brew 'jpeg'
-brew 'xz'
-brew 'libtiff'
-brew 'little-cms2'
-brew 'ghostscript'
-brew 'epstool'
-brew 'gmp'
-brew 'isl'
-brew 'mpfr'
-brew 'libmpc'
-brew 'gcc'
-brew 'fftw'
-brew 'libpng'
-brew 'fltk'
-brew 'freetype'
-brew 'fontconfig'
-brew 'fzf'
-brew 'webp'
-brew 'gd'
-brew 'gl2ps'
-brew 'lua'
-brew 'mysql'
-brew 'qt5'
-brew 'gnuplot', args: ['with-aquaterm', 'with-qt5', 'with-x11']
-brew 'libtool'
-brew 'graphicsmagick'
-brew 'htop'
-brew 'imagemagick'
-brew 'oniguruma'
-brew 'jq'
-brew 'libevent'
-brew 'mas'
-brew 'memcached', restart_service: true
-brew 'nodebrew'
-brew 'pcre'
-brew 'peco'
-brew 'plotutils'
-brew 'pstoedit'
-brew 'pyenv'
-brew 'python3'
-brew 'sip', args: ['with-python3']
-brew 'pyqt5'
-brew 'qscintilla2'
-brew 'ruby-build'
-brew 'rbenv'
-brew 'redis', restart_service: true
-brew 'rust'
-brew 'szip'
-brew 'tbb'
-brew 'tig'
-brew 'utf8proc'
-brew 'tmux'
-brew 'wget'
-brew 'wrk'
-brew 'zsh'
-brew 'homebrew/science/veclibfort'
-brew 'homebrew/science/arpack'
-brew 'homebrew/science/glpk'
-brew 'homebrew/science/hdf5'
-brew 'homebrew/science/metis'
-brew 'homebrew/science/qhull'
-brew 'homebrew/science/qrupdate'
-brew 'homebrew/science/suite-sparse'
-brew 'homebrew/science/transfig'
-brew 'homebrew/science/octave'
-brew 'rcmdnk/file/brew-file'
-cask 'alfred'
-cask 'aquaterm'
-cask 'atom'
-cask 'clipmenu'
-cask 'coteditor'
-cask 'firefox'
-cask 'flip4mac'
-cask 'google-chrome'
-cask 'google-japanese-ime'
-cask 'iterm2'
-cask 'minecraft'
-cask 'mysqlworkbench'
-cask 'skitch'
-cask 'slack'
-cask 'steam'
-cask 'vagrant'
-cask 'vagrant-manager'
-cask 'virtualbox'
-cask 'vlc'
-mas 'GarageBand', id: 682658836
-mas 'iMovie', id: 408981434
-mas 'MIDITrail', id: 421739418
-mas 'Pages', id: 409201541
-mas 'LINE', id: 539883307
-mas 'Keynote', id: 409183694
-mas 'Numbers', id: 409203825
+#############################################
+# Initialize /Users/hamadu/.brewfile/Brewfile
+#############################################
+
+
+# tap repositories and their packages
+
+tap caskroom/cask
+cask alfred
+cask aquaterm
+cask atom
+cask coteditor
+cask docker
+cask firefox
+cask flip4mac
+cask google-chrome
+cask google-japanese-ime
+cask intellij-idea
+cask iterm2
+cask java
+cask minecraft
+cask mysqlworkbench
+cask skitch
+cask slack
+cask steam
+cask vagrant-manager
+cask vagrant
+cask virtualbox
+cask xquartz
+
+tap homebrew/bundle
+
+tap homebrew/core
+brew veclibfort
+brew jpeg
+brew qscintilla2
+brew gd
+brew htop
+brew mysql
+brew nodebrew
+brew gdbm
+brew libsndfile
+brew wrk
+brew fontconfig
+brew gmp
+brew freetype
+brew python
+brew tbb
+brew python3
+brew ghostscript
+brew qt
+brew libyaml
+brew fftw
+brew szip
+brew libvorbis
+brew ruby-build
+brew pkg-config
+brew qhull
+brew go
+brew webp
+brew redis
+brew lua
+brew libpng
+brew memcached
+brew imagemagick
+brew jq
+brew suite-sparse
+brew portaudio
+brew octave
+brew wget
+brew hdf5
+brew arpack
+brew openssl
+brew utf8proc
+brew isl
+brew libtool
+brew libtiff
+brew tmux
+brew xz
+brew qrupdate
+brew pcre
+brew libssh2
+brew pyenv
+brew glpk
+brew fzf
+brew libmpc
+brew flac
+brew libevent
+brew pstoedit
+brew peco
+brew gl2ps
+brew fig2dev
+brew autoconf
+brew zsh
+brew rust
+brew sqlite
+brew plotutils
+brew ansible
+brew curl
+brew epstool
+brew gcc
+brew sip
+brew cmake
+brew fltk
+brew gnuplot --with-aquaterm --with-x11 --with-qt
+brew pyqt
+brew direnv
+brew tig
+brew mas
+brew little-cms2
+brew graphicsmagick
+brew libogg
+brew openssl@1.1
+brew oniguruma
+brew readline
+brew metis
+brew rbenv
+brew mpfr
+
+tap homebrew/science
+
+tap homebrew/services
+
+tap homebrew/versions
+
+tap homebrew/x11
+
+tap rcmdnk/file
+brew brew-file
+
+# App Store applications
+appstore 409183694 Keynote (7.2)
+appstore 539883307 LINE (5.3.0)
+appstore 421739418 MIDITrail (1.2.3)
+appstore 409203825 Numbers (4.2)
+appstore 409201541 Pages (6.2)
+appstore 497799835 Xcode (8.3.3)

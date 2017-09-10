@@ -5,6 +5,9 @@ for f in $HOME/dotfiles/zsh/*; do source $f; done
 ########################################
 # development environments
 
+## miscellaneous scripts
+export PATH=$HOME/dotfiles/scripts:$PATH
+
 ## git(diff-highlight)
 export PATH=$PATH:/usr/local/share/git-core/contrib/diff-highlight
 
