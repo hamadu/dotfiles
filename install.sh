@@ -34,7 +34,5 @@ git clone https://github.com/bhilburn/powerlevel9k.git
 git clone https://github.com/gabrielelana/awesome-terminal-fonts
 
 # do it manually message
-echo "[✋ ] To install external font, please follow instruction: https://github.com/gabrielelana/awesome-terminal-fonts/wiki/OS-X"
-echo "  and comment out: POWERLEVEL9K_MODE='awesome-patched' line in 90_prompt.zsh."
 echo "[✋ ] To install atom packages, run 'apm install --packages-file ~/dotfiles/atom/packages.txt'."
 echo "[✋ ] For preferable settings for Finder/Shortcuts, please follow here(Japanese): https://github.com/hamadu/dotfiles/wiki/macos"
