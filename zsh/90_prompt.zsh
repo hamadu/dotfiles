@@ -1,6 +1,6 @@
 ########################################
-# to patch font, see instruction here(MENDOI NO DE YATTENAI): https://github.com/gabrielelana/awesome-terminal-fonts/wiki/OS-X
-POWERLEVEL9K_MODE='awesome-patched'
+# using nerd-fonts (via homebrew): https://github.com/ryanoasis/nerd-fonts#option-4-homebrew-fonts 
+POWERLEVEL9K_MODE='nerdfont-complete'
 POWERLEVEL9K_PROMPT_ON_NEWLINE=true
 POWERLEVEL9K_RPROMPT_ON_NEWLINE=true
 POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(context dir vcs)
