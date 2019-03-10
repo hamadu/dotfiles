@@ -488,7 +488,7 @@
 	<key>NSWindow Frame SharedPreferences</key>
 	<string>142 508 796 473 0 0 1680 1027 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>67 133 1704 830 0 0 1680 1027 </string>
+	<string>67 7 1410 946 0 0 1680 1027 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>204 118 1210 890 0 0 1680 1027 </string>
 	<key>New Bookmarks</key>
@@ -1059,7 +1059,7 @@
 			<key>Non-ASCII Anti Aliased</key>
 			<true/>
 			<key>Normal Font</key>
-			<string>KnackNerdFontC-Regular 11</string>
+			<string>KnackNerdFontC-Regular 12</string>
 			<key>Option Key Sends</key>
 			<integer>0</integer>
 			<key>Prompt Before Closing 2</key>
@@ -1211,7 +1211,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2018-01-30T09:55:06Z</date>
+	<date>2018-02-04T15:52:44Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>findIgnoreCase_iTerm</key>
