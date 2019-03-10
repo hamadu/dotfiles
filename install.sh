@@ -38,4 +38,6 @@ git clone https://github.com/gabrielelana/awesome-terminal-fonts
 
 # do it manually message
 echo "[✋ ] To configure Visual Studio Code, install 'Settings Sync' and follow the instruction."
+echo " - 1. Create Github Personal Access Token named 'vscode sync' (We can delete if already have): https://github.com/settings/tokens"
+echo " - 2. Sync with this gist id: 3266f9e251ffb3a2173a79fd75c7a82b"
 echo "[✋ ] For preferable settings for Finder/Shortcuts, please follow here(Japanese): https://github.com/hamadu/dotfiles/wiki/macos"
