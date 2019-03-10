@@ -27,6 +27,9 @@ ln -Fis "$PWD/.gemrc"     $HOME
 ln -Fis "$PWD/.zshenv"    $HOME
 ln -Fis "$PWD/.zshrc"     $HOME
 
+# rustup
+curl https://sh.rustup.rs -sSf | sh
+
 # powerlevel9k
 mkdir "$HOME/tmp"
 cd "$HOME/tmp"
@@ -34,5 +37,5 @@ git clone https://github.com/bhilburn/powerlevel9k.git
 git clone https://github.com/gabrielelana/awesome-terminal-fonts
 
 # do it manually message
-echo "[✋ ] To install atom packages, run 'apm install --packages-file ~/dotfiles/atom/packages.txt'."
+echo "[✋ ] To configure Visual Studio Code, install 'Settings Sync' and follow the instruction."
 echo "[✋ ] For preferable settings for Finder/Shortcuts, please follow here(Japanese): https://github.com/hamadu/dotfiles/wiki/macos"

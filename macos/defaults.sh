@@ -16,7 +16,7 @@ defaults write NSGlobalDomain AppleKeyboardUIMode -int 3
 
 echo "Set key-repeat time"
 defaults write NSGlobalDomain KeyRepeat -int 1
-defaults write NSGlobalDomain InitialKeyRepeat -int 10
+defaults write NSGlobalDomain InitialKeyRepeat -int 12
 
 echo "##############"
 echo "### Global ###"
