@@ -1,5 +1,5 @@
 ########################################
-# using nerd-fonts (via homebrew): https://github.com/ryanoasis/nerd-fonts#option-4-homebrew-fonts 
+# using nerd-fonts (via homebrew): https://github.com/ryanoasis/nerd-fonts#option-4-homebrew-fonts
 POWERLEVEL9K_MODE='nerdfont-complete'
 POWERLEVEL9K_PROMPT_ON_NEWLINE=true
 POWERLEVEL9K_RPROMPT_ON_NEWLINE=true

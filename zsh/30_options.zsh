@@ -4,7 +4,6 @@ setopt print_eight_bit
 setopt no_beep
 setopt ignore_eof
 setopt interactive_comments
-# setopt auto_cd
 setopt auto_pushd
 setopt pushd_ignore_dups
 setopt share_history

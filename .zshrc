@@ -1,3 +1,5 @@
+export TERM="xterm-256color"
+
 ########################################
 # import basic settings
 for f in $HOME/dotfiles/zsh/*; do source $f; done
@@ -43,3 +45,6 @@ if [ -f '/Users/hamadu/google-cloud-sdk/path.zsh.inc' ]; then source '/Users/ham
 
 # The next line enables shell command completion for gcloud.
 if [ -f '/Users/hamadu/google-cloud-sdk/completion.zsh.inc' ]; then source '/Users/hamadu/google-cloud-sdk/completion.zsh.inc'; fi
+
+# tmux: experimental
+# tmux -f ~/.tmux.conf

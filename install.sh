@@ -27,6 +27,10 @@ ln -Fis "$PWD/.gemrc"     $HOME
 ln -Fis "$PWD/.zshenv"    $HOME
 ln -Fis "$PWD/.zshrc"     $HOME
 
+# tmux
+echo "[💫 ] setting tmux"
+ln -Fis "$PWD/tmux/.tmux.conf" $HOME
+
 # rustup
 curl https://sh.rustup.rs -sSf | sh
 

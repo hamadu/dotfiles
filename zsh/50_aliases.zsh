@@ -40,3 +40,8 @@ alias be='bundle exec'
 ## docker
 alias dea='docker-compose exec app'
 alias dcln=docker rm $(docker ps -a | grep "Exited" | awk '{print $1}') && docker rm $(docker images -a | grep "^<none>" | awk '{print $3}')
+
+## github
+alias g='cd $(ghq root)/$(ghq list | peco)'
+alias gh='hub browse $(ghq list | peco | cut -d "/" -f 2,3)'
+
