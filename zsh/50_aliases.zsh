@@ -3,11 +3,20 @@
 
 ## cd
 alias ..='cd ..'
-alias ll='ls -lAF'
-alias la='ls -AF'
+
+## ls
+alias ls='ls -F --color=auto'
+alias ll='ls -la'
 
 ## finder
 alias f='open .'
+
+## diff
+if [[ -x `which colordiff` ]]; then
+  alias diff='colordiff -u'
+else
+  alias diff='diff -u'
+fi
 
 ## grep
 alias grep='grep --color=auto'
@@ -45,3 +54,16 @@ alias dcln=docker rm $(docker ps -a | grep "Exited" | awk '{print $1}') && docke
 alias g='cd $(ghq root)/$(ghq list | peco)'
 alias gh='hub browse $(ghq list | peco | cut -d "/" -f 2,3)'
 
+## gnu utils for macos
+if [[ -x `which gfind` ]]; then
+  alias find='gfind'
+fi
+if [[ -x `which gfind` ]]; then
+  alias locate='glocate'
+fi
+if [[ -x `which gupdatedb` ]]; then
+  alias updatedb='gupdatedb'
+fi
+if [[ -x `which gxargs` ]]; then
+  alias xargs='gxargs'
+fi

@@ -10,6 +10,18 @@ autoload -Uz compinit && compinit -u
 autoload -Uz is-at-least
 
 ########################################
+# coreutils for macos
+
+# no_globalrcs option will stop loading /etc/zprofile.
+setopt no_globalrcs
+
+# But if run path_helper here, we can manage path perfectly.
+[ -x /usr/libexec/path_helper ] && eval `/usr/libexec/path_helper -s`
+
+export PATH=/usr/local/opt/coreutils/libexec/gnubin:${PATH}
+export MANPATH=/usr/local/opt/coreutils/libexec/gnuman:${MANPATH}
+
+########################################
 # Pager
 export PAGER=less
 export LESS='-R -f -X -i -P ?f%f:(stdin). ?lb%lb?L/%L.. [?eEOF:?pb%pb\%..]'
