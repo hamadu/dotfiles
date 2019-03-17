@@ -18,7 +18,7 @@ export PATH=$HOME/.nodebrew/current/bin:$PATH
 
 ## rbenv
 export RBENV_ROOT=/usr/local/var/rbenv
-eval "$(rbenv init -)"
+if which rbenv > /dev/null; then  eval "$(rbenv init -)"; fi
 
 ## android
 export PATH=/Users/hamadu/Library/Android/sdk/platform-tools:$PATH

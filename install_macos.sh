@@ -32,9 +32,11 @@ echo "[💫 ] setting tmux"
 ln -Fis "$PWD/tmux/.tmux.conf" $HOME
 
 # rustup
+echo "[💫 ] setting rustup"
 curl https://sh.rustup.rs -sSf | sh
 
 # powerlevel9k
+echo "[💫 ] setting powerlevel9k"
 mkdir "$HOME/tmp"
 cd "$HOME/tmp"
 git clone https://github.com/bhilburn/powerlevel9k.git
@@ -45,3 +47,4 @@ echo "[✋ ] To configure Visual Studio Code, install 'Settings Sync' and follow
 echo " - 1. Create Github Personal Access Token named 'vscode sync' (We can delete if already have): https://github.com/settings/tokens"
 echo " - 2. Sync with this gist id: 3266f9e251ffb3a2173a79fd75c7a82b"
 echo "[✋ ] For preferable settings for Finder/Shortcuts, please follow here(Japanese): https://github.com/hamadu/dotfiles/wiki/macos"
+echo "[✋ ] Install preferable Ruby/Python versions using rbenv and pyenv."
