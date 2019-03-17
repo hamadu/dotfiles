@@ -48,3 +48,5 @@ echo " - 1. Create Github Personal Access Token named 'vscode sync' (We can dele
 echo " - 2. Sync with this gist id: 3266f9e251ffb3a2173a79fd75c7a82b"
 echo "[✋ ] For preferable settings for Finder/Shortcuts, please follow here(Japanese): https://github.com/hamadu/dotfiles/wiki/macos"
 echo "[✋ ] Install preferable Ruby/Python versions using rbenv and pyenv."
+echo "[✋ ] Copy or create ssh to ~/.ssh and add them:"
+echo " - $ ssh-agent /path/to/id_rsa"
