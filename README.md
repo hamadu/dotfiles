@@ -13,7 +13,7 @@ $ git clone git@github.com:hamadu/dotfiles.git
 $ cd dotfiles
 
 # install script
-$ sh install.sh
+$ sh install_macos.sh
 ```
 
 ## update
