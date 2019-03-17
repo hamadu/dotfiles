@@ -43,10 +43,14 @@ git clone https://github.com/bhilburn/powerlevel9k.git
 git clone https://github.com/gabrielelana/awesome-terminal-fonts
 
 # do it manually message
+echo "[✋ ] To configure iTerm2, launch  Preferences -> General -> Preferences -> Check 'Load preferences from...' and select '~/dotfiles/macos/iterm2'."
+echo " - 1. Create Github Personal Access Token named 'vscode sync' (We can delete if already have): https://github.com/settings/tokens"
+echo " - 2. Sync with this gist id: 3266f9e251ffb3a2173a79fd75c7a82b"
 echo "[✋ ] To configure Visual Studio Code, install 'Settings Sync' and follow the instruction."
 echo " - 1. Create Github Personal Access Token named 'vscode sync' (We can delete if already have): https://github.com/settings/tokens"
 echo " - 2. Sync with this gist id: 3266f9e251ffb3a2173a79fd75c7a82b"
 echo "[✋ ] For preferable settings for Finder/Shortcuts, please follow here(Japanese): https://github.com/hamadu/dotfiles/wiki/macos"
 echo "[✋ ] Install preferable Ruby/Python versions using rbenv and pyenv."
-echo "[✋ ] Copy or create ssh to ~/.ssh and add them:"
-echo " - $ ssh-agent /path/to/id_rsa"
+echo "[✋ ] Copy or create ssh to ~/.ssh and"
+echo " - $ chmod 600 /path/to/id_rsa"
+echo " - $ ssh-add /path/to/id_rsa"
