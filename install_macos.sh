@@ -43,9 +43,9 @@ git clone https://github.com/bhilburn/powerlevel9k.git
 git clone https://github.com/gabrielelana/awesome-terminal-fonts
 
 # do it manually message
-echo "[✋ ] To configure iTerm2, launch  Preferences -> General -> Preferences -> Check 'Load preferences from...' and select '~/dotfiles/macos/iterm2'."
-echo " - 1. Create Github Personal Access Token named 'vscode sync' (We can delete if already have): https://github.com/settings/tokens"
-echo " - 2. Sync with this gist id: 3266f9e251ffb3a2173a79fd75c7a82b"
+echo "[✋ ] To configure iTerm2"
+echo " - 1. Load Preference: Preferences -> General -> Preferences -> Check 'Load preferences from...' and select '~/dotfiles/macos/iterm2'."
+echo " - 2. Set font: Preferences -> Profiles -> Text -> Font -> Change Font to 'Hack Nerd Font'"
 echo "[✋ ] To configure Visual Studio Code, install 'Settings Sync' and follow the instruction."
 echo " - 1. Create Github Personal Access Token named 'vscode sync' (We can delete if already have): https://github.com/settings/tokens"
 echo " - 2. Sync with this gist id: 3266f9e251ffb3a2173a79fd75c7a82b"
