@@ -37,8 +37,9 @@ alias gdd='git diff HEAD'
 alias gpp='git push --set-upstream origin'
 alias gbda="git branch --merged | grep -vE '^\*|master$|develop$' | xargs -I % git branch -d %"
 
-## vim
+## editors
 alias vi='vim'
+alias co='code'
 
 ## nikki
 alias nikki='atom ~/projects/diary/`date +%Y%m%d`.md'

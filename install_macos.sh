@@ -27,6 +27,11 @@ ln -Fis "$PWD/.gemrc"     $HOME
 ln -Fis "$PWD/.zshenv"    $HOME
 ln -Fis "$PWD/.zshrc"     $HOME
 
+# vim
+echo "[💫 ] setting vim"
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+ln -Fis "$PWD/.vimrc" $HOME
+
 # tmux
 echo "[💫 ] setting tmux"
 ln -Fis "$PWD/tmux/.tmux.conf" $HOME
@@ -43,12 +48,14 @@ git clone https://github.com/bhilburn/powerlevel9k.git
 git clone https://github.com/gabrielelana/awesome-terminal-fonts
 
 # do it manually message
+echo "[💪 ] DO IT MANUALLY BELOW [👇 ] "
 echo "[✋ ] To configure iTerm2"
 echo " - 1. Load Preference: Preferences -> General -> Preferences -> Check 'Load preferences from...' and select '~/dotfiles/macos/iterm2'."
 echo " - 2. Set font: Preferences -> Profiles -> Text -> Font -> Change Font to 'Hack Nerd Font'"
 echo "[✋ ] To configure Visual Studio Code, install 'Settings Sync' and follow the instruction."
 echo " - 1. Create Github Personal Access Token named 'vscode sync' (We can delete if already have): https://github.com/settings/tokens"
 echo " - 2. Sync with this gist id: 3266f9e251ffb3a2173a79fd75c7a82b"
+echo "[✋ ] To configure vim, launch vim and hit \":PlugInstall\"."
 echo "[✋ ] For preferable settings for Finder/Shortcuts, please follow here(Japanese): https://github.com/hamadu/dotfiles/wiki/macos"
 echo "[✋ ] Install preferable Ruby/Python versions using rbenv and pyenv."
 echo "[✋ ] Copy or create ssh to ~/.ssh and"
